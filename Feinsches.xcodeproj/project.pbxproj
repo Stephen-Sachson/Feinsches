@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CC495431905FC4900BC273C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495421905FC4900BC273C /* Foundation.framework */; };
+		1CC495451905FC4900BC273C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495441905FC4900BC273C /* CoreGraphics.framework */; };
+		1CC495471905FC4900BC273C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495461905FC4900BC273C /* UIKit.framework */; };
+		1CC4954D1905FC4900BC273C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CC4954B1905FC4900BC273C /* InfoPlist.strings */; };
+		1CC4954F1905FC4900BC273C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4954E1905FC4900BC273C /* main.m */; };
+		1CC495531905FC4900BC273C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC495521905FC4900BC273C /* AppDelegate.m */; };
+		1CC495561905FC4900BC273C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC495541905FC4900BC273C /* Main_iPhone.storyboard */; };
+		1CC495591905FC4900BC273C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC495571905FC4900BC273C /* Main_iPad.storyboard */; };
+		1CC4955C1905FC4900BC273C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4955B1905FC4900BC273C /* ViewController.m */; };
+		1CC4955E1905FC4900BC273C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC4955D1905FC4900BC273C /* Images.xcassets */; };
+		1CC495651905FC4900BC273C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495641905FC4900BC273C /* XCTest.framework */; };
+		1CC495661905FC4900BC273C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495421905FC4900BC273C /* Foundation.framework */; };
+		1CC495671905FC4900BC273C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495461905FC4900BC273C /* UIKit.framework */; };
+		1CC4956F1905FC4900BC273C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CC4956D1905FC4900BC273C /* InfoPlist.strings */; };
+		1CC495711905FC4900BC273C /* FeinschesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC495701905FC4900BC273C /* FeinschesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CC495681905FC4900BC273C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC495371905FC4900BC273C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC4953E1905FC4900BC273C;
+			remoteInfo = Feinsches;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CC4953F1905FC4900BC273C /* Feinsches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feinsches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC495421905FC4900BC273C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1CC495441905FC4900BC273C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1CC495461905FC4900BC273C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1CC4954A1905FC4900BC273C /* Feinsches-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Feinsches-Info.plist"; sourceTree = "<group>"; };
+		1CC4954C1905FC4900BC273C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CC4954E1905FC4900BC273C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CC495501905FC4900BC273C /* Feinsches-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Feinsches-Prefix.pch"; sourceTree = "<group>"; };
+		1CC495511905FC4900BC273C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CC495521905FC4900BC273C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CC495551905FC4900BC273C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1CC495581905FC4900BC273C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1CC4955A1905FC4900BC273C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1CC4955B1905FC4900BC273C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CC4955D1905FC4900BC273C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CC495631905FC4900BC273C /* FeinschesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeinschesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC495641905FC4900BC273C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1CC4956C1905FC4900BC273C /* FeinschesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeinschesTests-Info.plist"; sourceTree = "<group>"; };
+		1CC4956E1905FC4900BC273C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CC495701905FC4900BC273C /* FeinschesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeinschesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CC4953C1905FC4900BC273C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC495451905FC4900BC273C /* CoreGraphics.framework in Frameworks */,
+				1CC495471905FC4900BC273C /* UIKit.framework in Frameworks */,
+				1CC495431905FC4900BC273C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC495601905FC4900BC273C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC495651905FC4900BC273C /* XCTest.framework in Frameworks */,
+				1CC495671905FC4900BC273C /* UIKit.framework in Frameworks */,
+				1CC495661905FC4900BC273C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC495361905FC4900BC273C = {
+			isa = PBXGroup;
+			children = (
+				1CC495481905FC4900BC273C /* Feinsches */,
+				1CC4956A1905FC4900BC273C /* FeinschesTests */,
+				1CC495411905FC4900BC273C /* Frameworks */,
+				1CC495401905FC4900BC273C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CC495401905FC4900BC273C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC4953F1905FC4900BC273C /* Feinsches.app */,
+				1CC495631905FC4900BC273C /* FeinschesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC495411905FC4900BC273C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CC495421905FC4900BC273C /* Foundation.framework */,
+				1CC495441905FC4900BC273C /* CoreGraphics.framework */,
+				1CC495461905FC4900BC273C /* UIKit.framework */,
+				1CC495641905FC4900BC273C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CC495481905FC4900BC273C /* Feinsches */ = {
+			isa = PBXGroup;
+			children = (
+				1CC495511905FC4900BC273C /* AppDelegate.h */,
+				1CC495521905FC4900BC273C /* AppDelegate.m */,
+				1CC495541905FC4900BC273C /* Main_iPhone.storyboard */,
+				1CC495571905FC4900BC273C /* Main_iPad.storyboard */,
+				1CC4955A1905FC4900BC273C /* ViewController.h */,
+				1CC4955B1905FC4900BC273C /* ViewController.m */,
+				1CC4955D1905FC4900BC273C /* Images.xcassets */,
+				1CC495491905FC4900BC273C /* Supporting Files */,
+			);
+			path = Feinsches;
+			sourceTree = "<group>";
+		};
+		1CC495491905FC4900BC273C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC4954A1905FC4900BC273C /* Feinsches-Info.plist */,
+				1CC4954B1905FC4900BC273C /* InfoPlist.strings */,
+				1CC4954E1905FC4900BC273C /* main.m */,
+				1CC495501905FC4900BC273C /* Feinsches-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CC4956A1905FC4900BC273C /* FeinschesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CC495701905FC4900BC273C /* FeinschesTests.m */,
+				1CC4956B1905FC4900BC273C /* Supporting Files */,
+			);
+			path = FeinschesTests;
+			sourceTree = "<group>";
+		};
+		1CC4956B1905FC4900BC273C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC4956C1905FC4900BC273C /* FeinschesTests-Info.plist */,
+				1CC4956D1905FC4900BC273C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CC4953E1905FC4900BC273C /* Feinsches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC495741905FC4900BC273C /* Build configuration list for PBXNativeTarget "Feinsches" */;
+			buildPhases = (
+				1CC4953B1905FC4900BC273C /* Sources */,
+				1CC4953C1905FC4900BC273C /* Frameworks */,
+				1CC4953D1905FC4900BC273C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Feinsches;
+			productName = Feinsches;
+			productReference = 1CC4953F1905FC4900BC273C /* Feinsches.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CC495621905FC4900BC273C /* FeinschesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC495771905FC4900BC273C /* Build configuration list for PBXNativeTarget "FeinschesTests" */;
+			buildPhases = (
+				1CC4955F1905FC4900BC273C /* Sources */,
+				1CC495601905FC4900BC273C /* Frameworks */,
+				1CC495611905FC4900BC273C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CC495691905FC4900BC273C /* PBXTargetDependency */,
+			);
+			name = FeinschesTests;
+			productName = FeinschesTests;
+			productReference = 1CC495631905FC4900BC273C /* FeinschesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CC495371905FC4900BC273C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stephen Sachson";
+				TargetAttributes = {
+					1CC495621905FC4900BC273C = {
+						TestTargetID = 1CC4953E1905FC4900BC273C;
+					};
+				};
+			};
+			buildConfigurationList = 1CC4953A1905FC4900BC273C /* Build configuration list for PBXProject "Feinsches" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CC495361905FC4900BC273C;
+			productRefGroup = 1CC495401905FC4900BC273C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CC4953E1905FC4900BC273C /* Feinsches */,
+				1CC495621905FC4900BC273C /* FeinschesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC4953D1905FC4900BC273C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC495591905FC4900BC273C /* Main_iPad.storyboard in Resources */,
+				1CC4955E1905FC4900BC273C /* Images.xcassets in Resources */,
+				1CC495561905FC4900BC273C /* Main_iPhone.storyboard in Resources */,
+				1CC4954D1905FC4900BC273C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC495611905FC4900BC273C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC4956F1905FC4900BC273C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC4953B1905FC4900BC273C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC4955C1905FC4900BC273C /* ViewController.m in Sources */,
+				1CC495531905FC4900BC273C /* AppDelegate.m in Sources */,
+				1CC4954F1905FC4900BC273C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC4955F1905FC4900BC273C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC495711905FC4900BC273C /* FeinschesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CC495691905FC4900BC273C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC4953E1905FC4900BC273C /* Feinsches */;
+			targetProxy = 1CC495681905FC4900BC273C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CC4954B1905FC4900BC273C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC4954C1905FC4900BC273C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CC495541905FC4900BC273C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC495551905FC4900BC273C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1CC495571905FC4900BC273C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC495581905FC4900BC273C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1CC4956D1905FC4900BC273C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC4956E1905FC4900BC273C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CC495721905FC4900BC273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CC495731905FC4900BC273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CC495751905FC4900BC273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feinsches/Feinsches-Prefix.pch";
+				INFOPLIST_FILE = "Feinsches/Feinsches-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1CC495761905FC4900BC273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feinsches/Feinsches-Prefix.pch";
+				INFOPLIST_FILE = "Feinsches/Feinsches-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1CC495781905FC4900BC273C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Feinsches.app/Feinsches";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feinsches/Feinsches-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FeinschesTests/FeinschesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1CC495791905FC4900BC273C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Feinsches.app/Feinsches";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feinsches/Feinsches-Prefix.pch";
+				INFOPLIST_FILE = "FeinschesTests/FeinschesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC4953A1905FC4900BC273C /* Build configuration list for PBXProject "Feinsches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC495721905FC4900BC273C /* Debug */,
+				1CC495731905FC4900BC273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC495741905FC4900BC273C /* Build configuration list for PBXNativeTarget "Feinsches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC495751905FC4900BC273C /* Debug */,
+				1CC495761905FC4900BC273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CC495771905FC4900BC273C /* Build configuration list for PBXNativeTarget "FeinschesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC495781905FC4900BC273C /* Debug */,
+				1CC495791905FC4900BC273C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CC495371905FC4900BC273C /* Project object */;
+}
