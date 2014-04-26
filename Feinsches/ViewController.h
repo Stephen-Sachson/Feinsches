@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class CTView;
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet CTView *documentView;
 
 @end

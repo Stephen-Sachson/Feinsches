@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2F7C00190B3E0E001D238C /* CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2F7BFF190B3E0E001D238C /* CTView.m */; };
+		1C2F7C03190B4913001D238C /* MarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2F7C02190B4913001D238C /* MarkupParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1C66FC62190A0B41008B2B67 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C66FC61190A0B41008B2B67 /* CoreText.framework */; };
 		1CC495431905FC4900BC273C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495421905FC4900BC273C /* Foundation.framework */; };
 		1CC495451905FC4900BC273C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495441905FC4900BC273C /* CoreGraphics.framework */; };
 		1CC495471905FC4900BC273C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495461905FC4900BC273C /* UIKit.framework */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C2F7BFE190B3E0E001D238C /* CTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTView.h; sourceTree = "<group>"; };
+		1C2F7BFF190B3E0E001D238C /* CTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTView.m; sourceTree = "<group>"; };
+		1C2F7C01190B4913001D238C /* MarkupParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkupParser.h; sourceTree = "<group>"; };
+		1C2F7C02190B4913001D238C /* MarkupParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkupParser.m; sourceTree = "<group>"; };
+		1C66FC61190A0B41008B2B67 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		1CC4953F1905FC4900BC273C /* Feinsches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feinsches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC495421905FC4900BC273C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1CC495441905FC4900BC273C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C66FC62190A0B41008B2B67 /* CoreText.framework in Frameworks */,
 				1CC495451905FC4900BC273C /* CoreGraphics.framework in Frameworks */,
 				1CC495471905FC4900BC273C /* UIKit.framework in Frameworks */,
 				1CC495431905FC4900BC273C /* Foundation.framework in Frameworks */,
@@ -103,6 +112,7 @@
 		1CC495411905FC4900BC273C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C66FC61190A0B41008B2B67 /* CoreText.framework */,
 				1CC495421905FC4900BC273C /* Foundation.framework */,
 				1CC495441905FC4900BC273C /* CoreGraphics.framework */,
 				1CC495461905FC4900BC273C /* UIKit.framework */,
@@ -122,6 +132,10 @@
 				1CC4955B1905FC4900BC273C /* ViewController.m */,
 				1CC4955D1905FC4900BC273C /* Images.xcassets */,
 				1CC495491905FC4900BC273C /* Supporting Files */,
+				1C2F7BFE190B3E0E001D238C /* CTView.h */,
+				1C2F7BFF190B3E0E001D238C /* CTView.m */,
+				1C2F7C01190B4913001D238C /* MarkupParser.h */,
+				1C2F7C02190B4913001D238C /* MarkupParser.m */,
 			);
 			path = Feinsches;
 			sourceTree = "<group>";
@@ -254,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC4955C1905FC4900BC273C /* ViewController.m in Sources */,
+				1C2F7C00190B3E0E001D238C /* CTView.m in Sources */,
 				1CC495531905FC4900BC273C /* AppDelegate.m in Sources */,
+				1C2F7C03190B4913001D238C /* MarkupParser.m in Sources */,
 				1CC4954F1905FC4900BC273C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +486,7 @@
 				1CC495761905FC4900BC273C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CC495771905FC4900BC273C /* Build configuration list for PBXNativeTarget "FeinschesTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +495,7 @@
 				1CC495791905FC4900BC273C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

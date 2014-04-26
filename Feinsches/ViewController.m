@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CTView.h"
 
 @interface ViewController ()
 
@@ -35,7 +36,6 @@ static BOOL increase;
     if ((increase && i>2000) || (!increase && i<0)) {
         increase=!increase;
     }
-    
     
     float hey=(float)p/2000;
     self.view.backgroundColor=[UIColor colorWithRed:hey green:1-hey blue:0 alpha:1];
