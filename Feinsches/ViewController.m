@@ -22,11 +22,11 @@ static BOOL increase;
     [super viewDidLoad];
     NSLog(@"%@",NSStringFromSelector(_cmd));
 	// Do any additional setup after loading the view, typically from a nib.
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"txt"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"zombies" ofType:@"txt"];
     NSString* text = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:NULL];
     MarkupParser* p = [[MarkupParser alloc] init];
     NSAttributedString* attString = [p attrStringFromMarkup: text];
-    self.documentView.attString=attString;
+    [self.documentView setAttString:attString withImages:p.images];
     [self.documentView buildFrames];
     
     increase=YES;

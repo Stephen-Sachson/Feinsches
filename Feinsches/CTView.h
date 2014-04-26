@@ -17,9 +17,17 @@
     NSAttributedString* attString;
     
     NSMutableArray *frames;
+    
+    NSArray *images;
 }
 @property (nonatomic, strong) NSAttributedString* attString;
 @property (nonatomic, strong) NSMutableArray *frames;
+@property (nonatomic, strong) NSArray *images;
+
+- (void)setAttString:(NSAttributedString *)attString withImages:(NSArray*)imgs;
 
 - (void)buildFrames;
+
+- (void)attachImagesWithFrame:(CTFrameRef)f inColumnView:(CTColumnView*)col;
+
 @end
