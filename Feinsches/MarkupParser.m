@@ -29,6 +29,7 @@ static CGFloat widthCallback( void* ref ){
 
 -(id)init
 {
+    NSLog(@"%@",NSStringFromSelector(_cmd));
     self = [super init];
     if (self) {
         self.font = @"Arial";
@@ -42,6 +43,7 @@ static CGFloat widthCallback( void* ref ){
 
 -(NSAttributedString*)attrStringFromMarkup:(NSString*)markup
 {
+    NSLog(@"%@",NSStringFromSelector(_cmd));
     NSMutableAttributedString* aString=[[NSMutableAttributedString alloc] initWithString:@""]; //1
     
     NSRegularExpression* regex = [[NSRegularExpression alloc]

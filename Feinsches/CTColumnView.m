@@ -13,6 +13,7 @@
 
 -(id)initWithFrame:(CGRect)frame
 {
+    NSLog(@"%@",NSStringFromSelector(_cmd));
     if ([super initWithFrame:frame]!=nil) {
         self.images = [NSMutableArray array];
     }
@@ -21,11 +22,13 @@
 
 -(void)setCTFrame: (id) f
 {
+    NSLog(@"%@",NSStringFromSelector(_cmd));
     ctFrame = f;
 }
 
 -(void)drawRect:(CGRect)rect
 {
+    NSLog(@"%@",NSStringFromSelector(_cmd));
     CGContextRef context = UIGraphicsGetCurrentContext();
     
     // Flip the coordinate system

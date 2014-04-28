@@ -25,12 +25,28 @@
 
 -(void)setAttString:(NSAttributedString *)string withImages:(NSArray*)imgs
 {
+    NSLog(@"%@",NSStringFromSelector(_cmd));
     self.attString = string;
     self.images = imgs;
+    
+    CTTextAlignment alignment = kCTJustifiedTextAlignment;
+    
+    CTParagraphStyleSetting settings[] = {
+        {kCTParagraphStyleSpecifierAlignment, sizeof(alignment), &alignment},
+    };
+    CTParagraphStyleRef paragraphStyle = CTParagraphStyleCreate(settings, sizeof(settings) / sizeof(settings[0]));
+    NSDictionary *attrDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+                                    (__bridge id)paragraphStyle, (NSString*)kCTParagraphStyleAttributeName,
+                                    nil];
+    
+    NSMutableAttributedString* stringCopy = [[NSMutableAttributedString alloc] initWithAttributedString:self.attString];
+    [stringCopy addAttributes:attrDictionary range:NSMakeRange(0, [attString length])];
+    self.attString = (NSAttributedString*)stringCopy;
 }
 
 - (void)buildFrames
 {
+    NSLog(@"%@",NSStringFromSelector(_cmd));
     frameXOffset = 20; //1
     frameYOffset = 20;
     self.pagingEnabled = YES;
@@ -88,6 +104,7 @@
 
 -(void)attachImagesWithFrame:(CTFrameRef)f inColumnView:(CTColumnView*)col
 {
+    NSLog(@"%@",NSStringFromSelector(_cmd));
     //drawing images
     NSArray *lines = (NSArray *)CTFrameGetLines(f); //1
     

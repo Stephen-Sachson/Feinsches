@@ -34,6 +34,7 @@ static BOOL increase;
 }
 
 - (void)gradient {
+    NSLog(@"%@",NSStringFromSelector(_cmd));
     int p;
     if (increase) {
         p=i++;
