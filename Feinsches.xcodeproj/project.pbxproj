@@ -15,6 +15,7 @@
 		1C2F7C10190BA7EF001D238C /* zombie3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C2F7C0C190BA7EF001D238C /* zombie3.jpg */; };
 		1C2F7C11190BA7EF001D238C /* zombies.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1C2F7C0D190BA7EF001D238C /* zombies.txt */; };
 		1C66FC62190A0B41008B2B67 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C66FC61190A0B41008B2B67 /* CoreText.framework */; };
+		1C9AA875190F7ADB004B3460 /* Sneaky.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9AA874190F7ADB004B3460 /* Sneaky.m */; };
 		1CC495431905FC4900BC273C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495421905FC4900BC273C /* Foundation.framework */; };
 		1CC495451905FC4900BC273C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495441905FC4900BC273C /* CoreGraphics.framework */; };
 		1CC495471905FC4900BC273C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC495461905FC4900BC273C /* UIKit.framework */; };
@@ -54,6 +55,8 @@
 		1C2F7C0C190BA7EF001D238C /* zombie3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zombie3.jpg; sourceTree = "<group>"; };
 		1C2F7C0D190BA7EF001D238C /* zombies.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zombies.txt; sourceTree = "<group>"; };
 		1C66FC61190A0B41008B2B67 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1C9AA873190F7ADB004B3460 /* Sneaky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sneaky.h; sourceTree = "<group>"; };
+		1C9AA874190F7ADB004B3460 /* Sneaky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sneaky.m; sourceTree = "<group>"; };
 		1CC4953F1905FC4900BC273C /* Feinsches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feinsches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC495421905FC4900BC273C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1CC495441905FC4900BC273C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 		1CC495361905FC4900BC273C = {
 			isa = PBXGroup;
 			children = (
+				1C9AA873190F7ADB004B3460 /* Sneaky.h */,
+				1C9AA874190F7ADB004B3460 /* Sneaky.m */,
 				1CC495481905FC4900BC273C /* Feinsches */,
 				1CC4956A1905FC4900BC273C /* FeinschesTests */,
 				1CC495411905FC4900BC273C /* Frameworks */,
@@ -296,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C9AA875190F7ADB004B3460 /* Sneaky.m in Sources */,
 				1CC4955C1905FC4900BC273C /* ViewController.m in Sources */,
 				1C2F7C00190B3E0E001D238C /* CTView.m in Sources */,
 				1CC495531905FC4900BC273C /* AppDelegate.m in Sources */,

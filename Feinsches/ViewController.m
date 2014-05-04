@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "CTView.h"
 #import "MarkupParser.h"
-
+#import "Sneaky.h"
 @interface ViewController ()
 
 @end
@@ -19,7 +19,11 @@ static int i=0;
 static BOOL increase;
 - (void)viewDidLoad
 {
+    NSLog(@"%@",NSStringFromSelector(_cmd));
     [super viewDidLoad];
+    Sneaky *sneak=[[Sneaky alloc] init];
+    NSLog(@"%@",sneak);
+    
     NSLog(@"%@",NSStringFromSelector(_cmd));
 	// Do any additional setup after loading the view, typically from a nib.
     NSString *path = [[NSBundle mainBundle] pathForResource:@"zombies" ofType:@"txt"];
